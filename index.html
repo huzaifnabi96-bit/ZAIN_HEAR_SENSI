@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAIN HEAR SENSI</title>
+<style>
+body{margin:0;background:#090912;color:white;font-family:Arial;text-align:center}
+header{padding:35px 15px;background:linear-gradient(130deg,#260044,#10102b)}
+h1{color:#d65cff;font-size:30px}
+.card{background:#191927;margin:18px;padding:22px;border-radius:16px;border:1px solid #8035ad}
+.price{font-size:27px;color:#ffcc44;font-weight:bold}
+button{background:#25d366;color:white;border:0;padding:13px 25px;border-radius:9px;font-size:16px}
+p{color:#ddd}
+</style>
+</head>
+<body>
+<header>
+<h1>🔥 ZAIN HEAR SENSI 🔥</h1>
+<p>FREE FIRE HEADSHOT SENSITIVITY STORE</p>
+</header>
+<h2>OUR PREMIUM SENSI</h2>
+<div class="card">
+<h2>🎯 Headshot Sensi</h2>
+<p class="price">₹99</p>
+<button onclick="order('Headshot Sensi')">Order Now</button>
+</div>
+<div class="card">
+<h2>🔥 One Tap Sensi</h2>
+<p class="price">₹149</p>
+<button onclick="order('One Tap Sensi')">Order Now</button>
+</div>
+<div class="card">
+<h2>⚡ Pro Sensi</h2>
+<p class="price">₹199</p>
+<button onclick="order('Pro Sensi')">Order Now</button>
+</div>
+<p>Welcome to ZAIN HEAR SENSI ❤️</p>
+<script>
+function order(item){
+let msg=encodeURIComponent("Hello! I want to order "+item);
+window.open("https://wa.me/917780989156?text="+msg,"_blank");
+}
+</script>
+</body>
+</html>
